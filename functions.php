@@ -43,4 +43,3 @@ function template_header($title) {
 	</html>
 	EOT;
 	}
-	?>

@@ -10,7 +10,7 @@ $produits = $query->fetchAll(PDO::FETCH_ASSOC);
 <?=template_header('Home')?>
 
 <div class="content">
-	<h2>Toto</h2>
+    <h2>Toto</h2>
 
   <!-- Conteneur principal -->
   <div id="mainContainer">
@@ -22,8 +22,8 @@ $produits = $query->fetchAll(PDO::FETCH_ASSOC);
           Affichage produit
         </div>
   
-	<div class="content read">
-	    <a href="create_produit" class="create-contact" >Ajouter un produit</a>
+    <div class="content read">
+        <a href="create_produit.php" class="create-contact" >Ajouter un produit</a>
       <div class="container">
   <br>
   <div class="row">
@@ -55,6 +55,4 @@ $produits = $query->fetchAll(PDO::FETCH_ASSOC);
 
 </div>
 
-
-
-<?=template_footer()?>
+<?php echo template_footer(); ?>
